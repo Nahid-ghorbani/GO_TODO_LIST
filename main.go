@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "github.com/Nahid-ghorbani/GO_TODO_LIST/internal/todo_list"
 
 func main() {
-	fmt.Printf("print main")
+	todo_list.RunTodo()
 }
