@@ -7,10 +7,10 @@ import (
 )
 
 func CreateNewTask(args *Args) model.TaskType {
-	task :=  model.TaskType{
-		Title: args.title,
+	task := model.TaskType{
+		Title:       args.title,
 		Description: args.description,
-		Status: model.StatusType(args.status),
+		Status:      model.StatusType(args.status),
 	}
 
 	return task
